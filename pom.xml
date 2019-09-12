@@ -12,7 +12,7 @@
 	<artifactId>qxj</artifactId>
 	<version>1.0</version>
 	<name>qxj_demo</name>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -35,7 +35,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		<!--部署成war包时开启↓↓↓↓-->
-
+		<!--
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
@@ -46,7 +46,7 @@
 			<artifactId>tomcat-embed-jasper</artifactId>
 			<scope>provided</scope>
 		</dependency>
-
+		-->
 		<!--部署成war包时开启↑↑↑↑-->
 	</dependencies>
 
