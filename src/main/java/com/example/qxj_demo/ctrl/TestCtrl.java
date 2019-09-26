@@ -18,6 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestCtrl {
     @RequestMapping("test")
     public String test(){
-        return "test OK -version:10x555555555.0";
+        return "test OK -version:10x55555556666666666666655.0";
     }
 }
